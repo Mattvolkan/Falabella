@@ -959,3 +959,73 @@
         gap: 10px;
     }
 }
+
+
+
+@media (max-width: 768px) {
+    /* Ocultar la barra de búsqueda en móviles */
+    .search-container {
+      display: none;
+    }
+  
+    /* Ajustar el header para móviles */
+    .header {
+      padding: 10px 15px;
+    }
+  
+    /* Mejorar la posición del botón de menú */
+    .menu-button {
+      position: relative;
+      right: 0;
+      padding: 8px;
+      margin-left: auto; /* Esto empujará el botón hacia la derecha */
+    }
+  
+    /* Ajustar el logo para que no ocupe tanto espacio */
+    .logo img {
+      max-width: 120px; /* O el tamaño que consideres apropiado */
+    }
+  
+    /* Reorganizar el header para móviles */
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  
+  /* Para pantallas aún más pequeñas */
+  @media (max-width: 480px) {
+    .header {
+      padding: 8px 10px;
+    }
+  
+    .logo img {
+      max-width: 100px;
+    }
+  
+    /* Ajustar el tamaño del botón de menú para pantallas muy pequeñas */
+    .menu-button {
+      padding: 6px;
+    }
+  }
+
+  /* Clases de utilidad para visibilidad */
+.hide-on-mobile {
+    display: block;
+  }
+  
+  .show-on-mobile {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  
+    .show-on-mobile {
+      display: block;
+    }
+  }
