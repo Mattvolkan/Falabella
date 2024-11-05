@@ -1,0 +1,297 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falabella</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div class="top-brands">
+      <a href="/index.html"><img src="/img/falabella.svg" alt="Falabella" /></a>
+      <img src="/img/homecenter.svg" alt="Homecenter" />
+      <img src="/img/logo-linio.svg" alt="Linio" class="linio-logo" />
+    </div>
+
+    <header class="header">
+      <div class="header-content">
+        <a href="/index.html"
+          ><img src="/img/falabellacom.svg" alt="Falabella" class="logo"
+        /></a>
+        <button class="menu-btn">☰ Menú</button>
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar en falabella.com" />
+          <button class="search-btn">🔍</button>
+        </div>
+        <div class="user-actions">
+          <button class="cart-btn">
+            🛒
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menú desplegable -->
+    <div class="menu-overlay" id="menuOverlay">
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>¡Hola!</h2>
+          <button class="close-menu" aria-label="Cerrar menú">✕</button>
+        </div>
+        <nav class="categories-menu">
+          <ul>
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                Moda mujer
+                <span class="arrow">›</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                Moda hombre
+                <span class="arrow">›</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                Tecnología
+                <span class="arrow">›</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">
+                Celulares y accesorios
+                <span class="arrow">›</span>
+              </a>
+            </li>
+            <!-- Añade más categorías según la imagen -->
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="sub-header">
+      <div class="sub-header-content">
+        <button class="location-btn">📍 Ingresa tu ubicación</button>
+        <nav class="nav-links">
+          <a
+            href="https://www.falabella.com.co/falabella-co/page/Vende-en-falabella-com"
+            >Vende en falabella.com</a
+          >
+          <a href="#">Ayuda</a>
+        </nav>
+      </div>
+    </div>
+
+    <!--Productos-->
+    <section class="products-section">
+        <h2 class="section-title">Los más vendidos</h2>
+        
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image-container">
+              <img src="/img/SMGC.avif" alt="SAMSUNG" class="product-image">
+              <div class="shipping-badge">Envío gratis</div>
+              <div class="delivery-badge">Llega mañana</div>
+            </div>
+            <div class="product-info">
+              <div class="product-brand">SAMSUNG</div>
+              <h3 class="product-title">Celular A15 256GB | 8GB RAM | Cámara Posterior 50 MP| Cámara Frontal 12MP | Pantalla 6.5 Pulgadas + MediaTek MT6789V/CD</h3>
+              <div class="product-rating">
+                <div class="stars">★★★★★</div>
+                <span class="rating-count">(45)</span>
+              </div>
+              <div class="product-price">
+                <div class="price-container">
+                  <span class="current-price">$692.900</span>
+                  <span class="discount-badge">-25%</span>
+                </div>
+                <span class="original-price">$1.299.900</span>
+              </div>
+              <button
+              class="add-to-cart-btn"
+              data-id="1"
+              data-name="Samsung A15 256GB"
+              data-price="692900"
+            >
+              Agregar al Carro
+            </button>
+            </div>
+          </article>
+          
+          <article class="product-card">
+            <div class="product-image-container">
+              <img src="/img/IPHONE.avif" alt="TV TLC" class="product-image">
+              <div class="shipping-badge">Envío gratis</div>
+              <div class="delivery-badge">Llega mañana</div>
+            </div>
+            <div class="product-info">
+              <div class="product-brand">APPLE</div>
+              <h3 class="product-title">IPhone 13 128 GB 5G | 4GB RAM | Pantalla 6.1 Pulgadas | Chip A15 Bionic</h3>
+              <div class="product-rating">
+                <div class="stars">★★★★★</div>
+                <span class="rating-count">(45)</span>
+              </div>
+              <div class="product-price">
+                <div class="price-container">
+                  <span class="current-price">$692.900</span>
+                  <span class="discount-badge">-25%</span>
+                </div>
+                <span class="original-price">$1.299.900</span>
+              </div>
+              <button
+              class="add-to-cart-btn"
+              data-id="2"
+              data-name="IPhone 13 128gb"
+              data-price="692900"
+            >
+              Agregar al Carro
+            </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-container">
+              <img src="/img/LG3.avif" alt="Samsung" class="product-image">
+              <div class="shipping-badge">Envío gratis</div>
+            </div>
+            <div class="product-info">
+              <div class="product-brand">LG</div>
+              <h3 class="product-title">Televisor 43” FHD Plano Smart TV 43LM6370PDB LED</h3>
+              <div class="product-rating">
+                <div class="stars">★★★★★</div>
+                <span class="rating-count">(45)</span>
+              </div>
+              <div class="product-price">
+                <div class="price-container">
+                  <span class="current-price">$692.900</span>
+                  <span class="discount-badge">-25%</span>
+                </div>
+                <span class="original-price">$1.299.900</span>
+              </div>
+              <button
+              class="add-to-cart-btn"
+              data-id="3"
+              data-name="LG Tv 43''"
+              data-price="692900"
+            >
+              Agregar al Carro
+            </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-container">
+              <img src="/img/TLC2.avif" alt="Samsung" class="product-image">
+            </div>
+            <div class="product-info">
+              <div class="product-brand">TLC</div>
+              <h3 class="product-title">Televisor 32 pulgadas LED Full HD Smart TV</h3>
+              <div class="product-rating">
+                <div class="stars">★★★★★</div>
+                <span class="rating-count">(45)</span>
+              </div>
+              <div class="product-price">
+                <div class="price-container">
+                  <span class="current-price">$692.900</span>
+                  <span class="discount-badge">-25%</span>
+                </div>
+                <span class="original-price">$1.299.900</span>
+              </div>
+              <button
+              class="add-to-cart-btn"
+              data-id="4"
+              data-name="TLC Tv 32''"
+              data-price="692900"
+            >
+              Agregar al Carro
+            </button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+    
+          <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Te ayudamos</h3>
+                <ul>
+                    <li><a href="#">Venta telefónica</a></li>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Devoluciones y cambios</a></li>
+                    <li><a href="#">Información legal</a></li>
+                    <li><a href="#">Facturas</a></li>
+                    <li><a href="#">Estado de mi pedido</a></li>
+                    <li><a href="#">Canal de Integridad</a></li>
+                    <li><a href="#">Cómo cuidamos tus datos</a></li>
+                    <li><a href="#">Peticiones, quejas y reclamos</a></li>
+                    <li><a href="https://www.sic.gov.co/">https://www.sic.gov.co/</a></li>
+                    <li><a href="#">Propiedad Industrial</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Sé parte de falabella.com</h3>
+                <ul>
+                    <li><a href="#">Vende en falabella.com</a></li>
+                    <li><a href="#">Nuestros inversionistas</a></li>
+                    <li><a href="#">Trabaja en grupo Falabella</a></li>
+                    <li><a href="#">Venta Empresa</a></li>
+                    <li><a href="#">Proveedores</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Únete a nuestros programas</h3>
+                <ul>
+                    <li><a href="#">CMR Puntos</a></li>
+                    <li><a href="#">Novios Falabella</a></li>
+                    <li><a href="#">Club Bebé</a></li>
+                    <li><a href="#">Club Hogar</a></li>
+                    <li><a href="#">Fashion Club</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Nuestras empresas</h3>
+                <ul>
+                    <li><a href="/index.html">falabella.com</a></li>
+                    <li><a href="/index.html">Falabella</a></li>
+                    <li><a href="#">Linio</a></li>
+                    <li><a href="#">Homecenter</a></li>
+                    <li><a href="#">Banco Falabella</a></li>
+                    <li><a href="#">Seguros Falabella</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <div class="social-media">
+                <a href="#" class="social-icon facebook">
+                    <img src="/img/face.svg" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon instagram">
+                    <img src="/img/inst.svg" alt="Instagram">
+                </a>
+            </div>
+    
+            <div class="legal-links">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de cookies</a>
+                <a href="#">Política de privacidad</a>
+            </div>
+    
+            <div class="copyright">
+                <p>© TODOS LOS DERECHOS RESERVADOS</p>
+                <p>Falabella.com S.A.S NIT 900.493.562-8, Calle 99 #14-49 Piso 5, Bogotá, Colombia</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="/script.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>

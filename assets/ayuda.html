@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloss.css">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-brands">
+        <a href="/index.html"><img src="/img/falabella.svg" alt="Falabella" /></a>
+        <img src="/img/homecenter.svg" alt="Homecenter" />
+        <img src="/img/logo-linio.svg" alt="Linio" class="linio-logo" />
+      </div>
+  
+      <header class="header">
+        <div class="header-content">
+          <div class="header-left">
+            <a href="/index.html"><img src="/img/falabellacom.svg" alt="Falabella" class="logo" /></a>
+            <button class="menu-btn">☰ Menú</button>
+          </div>
+          <div class="search-bar">
+            <input type="text" placeholder="Buscar en falabella.com" />
+            <button class="search-btn">🔍</button>
+          </div>
+          <div class="user-actions">
+            <button class="cart-btn">
+              🛒
+              <span class="cart-count">0</span>
+            </button>
+          </div>
+        </div>
+      </header>
+  
+       <!-- Menú desplegable -->
+       <div class="menu-overlay" id="menuOverlay">
+          <div class="menu-content">
+              <div class="menu-header">
+                  <h2>¡Hola!</h2>
+                  <button class="close-menu" aria-label="Cerrar menú">✕</button>
+              </div>
+              <nav class="categories-menu">
+                  <ul>
+                      <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Moda mujer
+                              <span class="arrow">›</span>
+                          </a>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Moda hombre
+                              <span class="arrow">›</span>
+                          </a>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Tecnología
+                              <span class="arrow">›</span>
+                          </a>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#" class="menu-link">
+                              Celulares y accesorios
+                              <span class="arrow">›</span>
+                          </a>
+                      </li>
+                      <!-- Añade más categorías según la imagen -->
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  
+      <div class="sub-header">
+        <div class="sub-header-content">
+          <button class="location-btn">📍 Ingresa tu ubicación</button>
+          <nav class="nav-links">
+            <a
+              href="https://www.falabella.com.co/falabella-co/page/Vende-en-falabella-com"
+              >Vende en falabella.com</a
+            >
+            <a href="#">Ayuda</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>Centro de Ayuda</h1>
+        <p class="subtitle">¿En qué podemos ayudarte?</p>
+    
+        <h2>Temas más buscados</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Tus pedidos</h3>
+                <p>Cómo administrar y hacer seguimiento de tus pedidos con envío a domicilio o retiro en un punto.</p>
+            </div>
+            <div class="card">
+                <h3>Devoluciones</h3>
+                <p>Cambiar de opinión está bien. Revisa los pasos para tener una devolución exitosa.</p>
+            </div>
+            <div class="card">
+                <h3>Plazos de reembolsos</h3>
+                <p>Conoce en cuánto tiempo recibirás el dinero en tu cuenta según el medio de pago utilizado en la compra.</p>
+            </div>
+            <!-- Agrega más tarjetas -->
+        </div>
+    
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq-links">
+            <a href="#">Devoluciones, cancelaciones y reembolsos</a>
+            <a href="#">Derecho de retracto y garantías</a>
+            <a href="#">Pedidos, facturas y Mi cuenta</a>
+            <a href="#">Tiendas y puntos de retiro</a>
+            <a href="#">Otros</a>
+        </div>
+    
+        <div class="contact-us">
+            <h2>Contáctanos</h2>
+            <p>Si no encontraste lo que buscabas, contáctanos:</p>
+            <button>Chat en línea</button>
+            <button>Llámanos</button>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.accordion-header').forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionItem = button.parentElement;
+                accordionItem.classList.toggle('active');
+            });
+        });
+    </script>
+      <script src="/script.js"></script>
+      <script src="menu.js"></script>
+</body>
+</html>
